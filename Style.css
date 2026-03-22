@@ -1489,7 +1489,7 @@ hr{
 .down_footer{
     height: 10vh;
     width: 100%;
-    border: 1px solid rgb(214, 7, 7);
+    /* border: 1px solid rgb(214, 7, 7); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1576,6 +1576,6 @@ hr{
 #down_footer_downlode{
     font-family: 15px;
 }
-#down_footer_app_store{
-    font-size: 25px;
+#google_play{
+    font-size: 22px;
 }
