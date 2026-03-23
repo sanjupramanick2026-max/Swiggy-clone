@@ -100,37 +100,39 @@ header{
 
 }
 .main_containt{
+    max-height: 15vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 16px;
     /* order: 1; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .main_containt_1{
-    width: 60%;
+    max-height: 15vh;
+    width: 40%;
     text-align: center;
-    margin: 0px auto;
-    padding-left: 12px;
+    margin: auto;
+    /* padding-left: 12px; */
     color: rgb(255, 255, 255);
     font-family: Gilroy;
-    font-size: 48px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
-    line-height: 56px;
-    
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .main_container{
-    height: 10vh;
-    width: 60%;
+    max-height: 8vh;
+    max-width: 60%;
     margin: auto;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
+    flex-wrap: nowrap;
 }
 .main_container_left{
-    height: 10vh;
+    height: 8vh;
     width: 40%;
     /* border: 2p solid #fff; */
     background-color: #fff;
@@ -151,7 +153,7 @@ header{
     color: #ff5200;
 }
 .main_container_left2{
-    height: 10vh;
+    height: 8vh;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -171,7 +173,7 @@ header{
 }
 
 .main_container_right{
-    height: 10vh;   
+    height: 8vh;   
     width: 55%;
     /* border: 2px solid #fff; */
     background-color: #fff;
@@ -181,7 +183,7 @@ header{
 
 }
 .main_contaier_right_left{
-    height: 10vh;
+    height: 8vh;
     width: 60%;
     background-color: none;   
     margin-left: 8%;
@@ -190,7 +192,7 @@ header{
 
 .main_contaier_right_left input{
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     font-size: 1em;
     border: none;
 }
@@ -217,52 +219,52 @@ header{
     /* border: 1px solid black; */
 }
 .header_down_container1{
-    height: 45vh;
-    width: 100%;
+    max-height: 45vh;
+    max-width: 100%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header_down_container1 img{
-    height: 40vh;
-    width: 100%;
+    max-height: 40vh;
+    max-width: 100%;
 }
 .header_down_container2{
-    height: 45vh;
-    width: 100%;
+    max-height: 45vh;
+    max-width: 100%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header_down_container2 img{
-    height: 40vh;
-    width: 100%;
+    max-height: 40vh;
+    max-width: 100%;
 }
 .header_down_container3{
-    height: 45vh;
-    width: 100%;
+    max-height: 45vh;
+    max-width: 100%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header_down_container3 img{
-    height: 40vh;
-    width: 100%;
-}
+    max-height: 40vh;
+    max-width: 100%;
+}   
 .header_main_left img{
-    max-height: 450px !important;
-    max-width: 250px !important;
+    max-height: 350px !important;
+    max-width: 300px !important;
     position: absolute;
     left: 0;
     top: 0;
     margin-top: 15vh;
 }
 .header_main_right img{
-    max-height: 450px !important;
-    max-width: 250px !important;
+    max-height: 350px !important;
+    max-width: 300px !important;
     position: absolute;
     right: 0;
     top: 0;
@@ -272,19 +274,23 @@ header{
 
 /****** header part finish *******/
 .order{
-    height: 70vh;
-    width: 100%;
+    max-height: 70vh;
+    max-width: 100%;
     /* border: 1px solid black; */
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .order_our{
-    height: 10vh;
-    width: 80%;
+    max-height: 10vh;
+    max-width: 80%;
     margin: auto;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.order_our_left{
+    
+    font-size: 25px;
 }
 .order_our_right{
     padding-right: 20px;
@@ -301,12 +307,13 @@ header{
 }
 .product{
     max-height: 60vh;
-    width: 80%;
+    max-width: 80%;
     overflow: scroll;
     scrollbar-width: none;
      /* Firefox-ms-overflow-style: none; */
      background-color: #fff;
     margin: auto;
+    /* margin-top: 10vh; */
 }
 .product1{
     max-height: 30vh;
@@ -317,12 +324,12 @@ header{
     gap: 10px;
 }
 .product1 a{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
 }
 .product2{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
 }
 .product2 img{
     max-height: 28vh;
@@ -358,19 +365,23 @@ header{
 
 
 .shop{
-    height: 40vh;
-    width: 100%;
+    max-height: 40vh;
+    max-width: 100%;
     /* border: 1px solid black; */
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .shop_groceries{
-    height: 10vh;
-    width: 80%;
+    max-height: 10vh;
+    max-width: 80%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+
+}
+.shop_groceries_left{
+    font-size: 25px;
 }
 .shop_groceries_right{
     padding-right: 20px;
@@ -386,16 +397,16 @@ header{
     border-radius: 50%;
 }
 .parent_instamart{
-    height: 40vh;
+    max-height: 40vh;
     max-width: 100%;
     background-color: #fff;
     display: flex;
-    
+    margin-top: 7vh;
     /* border: 1px solid black; */
 }
 .instamart{
-    height: 40vh;
-    width: 80%;
+    max-height: 40vh;
+    max-width: 80%;
     overflow: scroll;
     scrollbar-width: none;
      /* Firefox-ms-overflow-style: none; */
@@ -405,7 +416,7 @@ header{
      margin: auto;
 }
 .instamart_1{
-    height: 40vh;
+    max-height: 40vh;
     /* border: 1px solid black; */
     display: flex;
     
@@ -413,45 +424,45 @@ header{
     gap: 3vw;
 }
 .instamart_1 a{
-    height: 30vh;
-    width: 12vw;
+    max-height: 30vh;
+    max-width: 12vw;
 
 }
 
 .instamart2{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
     /* border: 1px solid black; */
 }
 .instamart2 img{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
 }
 .instamart3{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
     /* border: 1px solid black; */
     /* margin-left: 30px;    */
 }
 .instamart4{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
     
 }
 .instamart4 img{
-    height: 28vh;
-    width: 12vw;
+    max-height: 28vh;
+    max-width: 12vw;
 }
 .instamart5{
-    height: 10vh;
-    width: 12vw;
+    max-height: 10vh;
+    max-width: 12vw;
     display: flex;
 
     /* border: 1px solid rgb(249, 52, 52); */
 }
 .instamart6{
-    height: 10vh;
-    width: 10vw;
+    max-height: 10vh;
+    max-width: 10vw;
     /* border: 1px solid black; */
     font-size: 26px;
     text-align: center;
@@ -508,7 +519,7 @@ header{
 }
 .dineout_1{
     height: 55vh;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -519,12 +530,115 @@ header{
 }
 .dineout_1 a{
     height: 55vh;
-    width: 20vw;
+    width: 25vw;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
+.dineout2{
+    height: 50vh;
+    width: 20vw;
+    border: 1px solid black;
+    background-color: #fff;
+    box-shadow: 0 0 1px;
+}
+.doneout2 a{
+    text-decoration: none;
+}
+.dineout2_top{
+    height: 25vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(Discover_best_restaurants_on_Dineout/Te_Amo_cafe_Lounge_image.jpeg);
+    background-size: 100%;
+}
+.dineout2_buttom{
+    height: 5vh;
+    width: 100%;
+    /* border: 1px solid rgb(233, 224, 224); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Gilroy;
+}
+.dineout2_buttom{
+    height: 10;
+    margin-top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.dineout2_buttom_left{
+    font-size: 22px;
+    font-family: Gilroy;
+    color: #fff;
+}
+.dineout2_buttom_left a{
+    text-decoration: none;
+}
+.dineout2_buttom_right{
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dineout2_buttom_right1{
+    height: 4vh;
+    width: 2vw;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+    background-color: rgb(27,166,114);
+}
+.dineout2_buttom_right1 i{
+    height: 1vh;
+    width: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.dineout2_buttom_right2{
+    color: #fff;
+}
+.dineout2_buttom2{
+    height: 20vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5vh;
+    border: 1px solid rgb(169, 20, 20);
+}
+.dineout2_button2_1{
+    height: 4vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(2, 6, 12, 0.6)
+    
+}
+
+.dineout2_button2_2{
+    height: 4vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+
 .te_amo_cafe_lounge{
     height: 50vh;
     width: 100vw;
