@@ -1,44 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: century gothic;
     overflow-x: hidden;
 }
-.logo{
+
+.logo {
     width: 140px;
-    height:50px;
+    height: 50px;
     background-image: url(swiggy-logo.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
-.container{
+
+.container {
     width: 100%;
     height: 17vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 20px 10px rgba(114, 111, 111, 0.493);    
+    box-shadow: 0px 20px 10px rgba(114, 111, 111, 0.493);
     column-gap: 230px;
     position: static;
     top: 0;
 
     /* border: 2px solid red; */
 }
-.container a{
+
+.container a {
     text-decoration: none;
     color: black;
     margin: 0 10px;
     font-size: 1.12em;
     font-weight: 600;
 }
-section{
+
+section {
     width: 80%;
     border: 2px solid red;
     justify-self: center;
 }
-.main_con{
+
+.main_con {
     width: 100%;
     height: 12.5vh;
     display: flex;
@@ -46,9 +51,10 @@ section{
     justify-self: start;
     align-items: center;
     margin-top: 10px;
-   
+
 }
-.btn{
+
+.btn {
     width: 100%;
     height: 5vh;
     display: flex;
@@ -56,7 +62,8 @@ section{
     align-items: center;
     column-gap: 20px;
 }
-.btn button{
+
+.btn button {
     width: 30px;
     height: 100%;
     border: none;
@@ -66,19 +73,23 @@ section{
     font-size: 1.12em;
     font-weight: 600;
     cursor: pointer;
-   
+
 }
-.slide{
+
+.slide {
     width: 120%;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-     /* position: relative; */
+    /* position: relative; */
 
 }
-.slide1, .slide2, .slide3{
+
+.slide1,
+.slide2,
+.slide3 {
     width: 40%;
     height: 400px;
     display: flex;
@@ -89,75 +100,119 @@ section{
     position: relative;
     transform: translatex(-100px);
 }
-.slide1{
+
+.slide1 {
     opacity: 0.1;
 }
 
-.con1{
+.con1 {
     height: 15vh;
     width: 100%;
     display: flex;
     align-items: center;
 }
-.btn1{ 
+
+.btn1 {
     display: flex;
     height: 10vh;
 }
-.btn1 button{
+
+.btn1 button {
     width: 170px;
     height: 100%;
     border: none;
     border-radius: 29px;
     padding: 10px;
-    background-color:#FC8019;
+    background-color: #FC8019;
     color: rgb(0, 0, 0);
     font-size: 1.12em;
     font-weight: 600;
     cursor: pointer;
     margin-left: 4vw;
 }
-.btn1 input{
+
+.btn1 input {
     width: 40vw;
-     margin-left: 11vw;
-     width: 36.25rem;
-     border-radius: 10px;
+    margin-left: 11vw;
+    width: 36.25rem;
+    border-radius: 10px;
 }
-input::placeholder{
+
+input::placeholder {
     padding: 20px;
     font-size: 1.3em;
     font-weight: 600;
 }
-.card-box{
+
+.main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.card-box {
     height: 29rem;
     width: 382px;
     /* display: flex; */
     justify-content: center;
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 0px 20px 10px rgba(114, 111, 111, 0.493)    ;
     /* transition: transform 0.4s ease; */
-    border:2px solid red;
-    
+    /* border: 2px solid rgb(0, 0, 0); */
+
 }
-.card-top{
-height: 200px;
+
+.card-top {
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-position: relative;
+    position: relative;
+    
 
 }
-.card-top img{
-    height: 200px;
-    width: 100%;
+
+.card-top img {
+    height: 100%;
+    /* width: 100%; */
+    overflow-Y: hidden;
     position: absolute;
+    transition: transform 1s ease;
 
 
 }
-.card-top, .card-down{
-    transition: transform 0.4s ease;
-    border:2px solid red;
-}
-.card-box:hover{
-   transform: scale(1.05);
+
+.p-w1 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
 }
 
+.p-w2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px;
+}
 
+.card-down {
+    height: 35%;
+}
+
+.btn2 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 12px 12px 12px 12px;
+    padding: 10px 20px;
+    background-color: #FC8019;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-top img:hover {
+    transform: scale(1.05);
+}
